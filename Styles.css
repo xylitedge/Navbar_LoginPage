@@ -1,10 +1,10 @@
   /* Add a black background color to the top navigation */
 
-  body {
-    background-color: black;
+  *{
+    background-color: #164863;
   } 
 .topnav {
-  background-color: #333;
+  background-color: #9BBEC8;
   overflow: hidden;
 }
 
@@ -12,24 +12,24 @@
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 15px 16px;
   
 	
 }
-label span { color: yellow; }
+label span { color: red; }
 
-.psw{color: yellow; 
+.psw{color: #9BBEC8; 
 }
 .p{ 
-  color: yellow;
+  color: red;
   padding-bottom: 5px;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: transparent;
-  color: yellow;
+  color: black;
 }
   
 /* Add an active class to highlight the current page */
@@ -50,7 +50,7 @@ form {
   position: relative;
   
   max-width: 500px;
-  border: 0px solid #f1f1f1;
+  border: 0px solid red;
 }
 
 /* Full-width inputs */
@@ -59,13 +59,13 @@ input[type=text], input[type=password] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #164863;
   box-sizing: border-box;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color:yellow;
+  background-color: #DDF2FD;
   color: black;
   padding: 14px 20px;
   margin: 8px 0;
@@ -76,24 +76,24 @@ button {
 
 /* Add a hover effect for buttons */
 button:hover {
-  opacity: 0.15;
+  opacity: 0.10;
 }
 
 /* Extra style for the cancel button (red) */
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: yellow;
+  background-color: #427D9D;
 }
 .cancelbtn1{
   width: auto;
   padding: 10px 18px;
-  background-color: yellow;
+  background-color: #427D9D;
 }
 .container1{
   width: auto;
   padding: 10px 18px;
-  background-color: yellow;
+  background-color: #427D9D;
 }
 
 /* Center the avatar image inside this container */
@@ -202,6 +202,42 @@ h2 {
 }
 
 .contact-form button:hover {
-  background-color: #555;
+  background-color: red;
 }
 
+/* .imgcontainer{
+ width: 50px;
+ height: 50px; 
+} */
+
+.News{
+  background: #000;
+}
+.f1{
+  color: yellow;
+  text-align: center;
+  font-family: cursive;
+}
+.container{
+  color: #FFC436;
+  background: #164863;
+  border: solid black;
+  border-width: 1px;
+  padding-bottom: 1px;
+  font-style: normal;
+  font-family:  cursive;
+  font-weight: normal;
+}
+
+::placeholder {
+  font-family: cursive;
+  opacity: 1; 
+}
+
+
+
+.about-1{
+  
+  text-align: center;
+  font-family: cursive;
+}
